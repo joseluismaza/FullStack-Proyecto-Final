@@ -1,0 +1,91 @@
+:root {
+  --title-font: "Electrolize", sans-serif;
+  --title-weight: 400;
+  --title-style: normal;
+  --title-color: #ffecd1;
+
+  --a-font: "Outfit", sans-serif;
+  --a-weight: 400;
+  --a-style: normal;
+  --a-color: #15616d;
+
+  --label-border-radius: 5px;
+  --label-background-color: gray;
+  --label-color: white;
+
+  --avatar-border: 3px solid black;
+
+  
+}
+a{
+  text-decoration: none;
+  font-family: var(--a-font);
+  font-weight: var(--a-weight);
+  font-style: var(--a-style);
+  color: var(--a-color);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #001524;
+}
+
+#app {
+  margin: 0 auto;
+  padding-top: 0;
+  text-align: center;
+}
+
+/*@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+*/
+* {
+  box-sizing: border-box;  
+}
+
+button{
+  border-radius: 10px;
+  background-color: #213547;
+  color: #ffecd1;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+
+}
+
+input{
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background-color: gray;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+input::placeholder{
+  color: #ffecd1;
+}
+
+h2{
+  font-family: var(--title-font);
+  font-weight: var(--title-weight);
+  font-style: var(--title-style);
+  color: var(--title-color);
+}

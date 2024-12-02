@@ -1,0 +1,62 @@
+.juegos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top:50px
+}
+
+.juego{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  position: relative;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  font-family: var(--title-font);
+  font-weight: var(--title-weight);
+  font-style: var(--title-style);
+  color: var(--title-color)
+}
+
+.juego:hover{
+  transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
+  border: 5px solid white;
+  background-color: gray;
+  box-shadow: 
+    5px 5px 15px 5px rgba(0, 0, 0, 0.5),
+    -10px -10px 15px rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.caratula{
+  width: 90%;
+  height: 40%;
+  object-fit: contain;
+}
+
+.titulo{
+  font-size: 20px;
+}
+
+.juego > .fav{
+  width: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  height: 20px;
+
+}
+
+.juego > .fav:hover{
+  transform: scale(1.1);
+}

@@ -1,0 +1,43 @@
+#perfil-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--a-font);
+  font-weight: var(--a-weight);
+  font-style: var(--a-style);
+}
+
+#edit-form {
+  margin-top: 50px;
+  text-align: justify;
+  padding-top: 10px;
+  color: white;
+
+}
+.perfil-title{
+  margin-top: 150px;
+  font-family: var(--title-font);
+  font-weight: var(--title-weight);
+  font-style: var(--title-style);
+  color: var(--title-color);
+}
+
+.form-field {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.form-field label{
+  width: 100px;
+}
+
+.form-field input {
+  margin-left: 10px;
+  width: 200px;
+  padding: 10px; 
+  text-align: left;
+
+}
+

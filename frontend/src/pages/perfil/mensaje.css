@@ -1,0 +1,38 @@
+.delete-modal-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.confirm-text{
+  font-family: var(--text-font);
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+}
+
+.buttons-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  height: 100%;
+  width: 50%;
+  gap: 20px;
+}
+
+.confirmar-button{
+  background-color: red;
+  color: white;
+}
+
+.cancelar-button{
+  background-color: green;
+  color: white;
+}
+
+.mensaje-container{
+  margin-top: 20px;
+}
